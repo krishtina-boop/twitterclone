@@ -16,14 +16,14 @@
     <link rel="stylesheet" href="src/output.css" />
   </head>
   <body class="bg-black text-white">
-    <div class="flex container mx-auto">
-      <div class="first w-[40%]">
-        <div class="logo invert my-4 mx-4">
+    <div class="flex md:container mx-auto">
+      <div class="first w-16 md:w-[40%]">
+        <div class="logo invert my-4 self-start mx-2 md:mx-16">
           <svg
             viewBox="0 0 24 24"
             aria-label="X"
             role="img"
-            class="w-8 ml-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-16y2uox r-lwhw9o"
+            class="w-8 ml-2 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-16y2uox r-lwhw9o"
           >
             <g>
               <path
@@ -32,64 +32,75 @@
             </g>
           </svg>
         </div>
-        <div class="sidebar flex-col items-end-end">
+        <div class="sidebar flex-col md:items-end flex">
           <ul
             class="flex flex-col text-2xl space-y-3 md:px-11 px-4 justify-start font-bold"
           >
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center items-center md:w-fit text-2xl px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-home-4-line"></i>Home
+              <i class="ri-home-4-line text-3xl"></i
+              ><span class="hidden md:block">Home</span>
             </li>
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center md:w-fit items-center text-2xl px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-search-line text-2xl"></i>Explore
+              <i class="ri-search-line text-3xl"></i
+              ><span class="hidden md:block">Explore</span>
             </li>
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center items-center md:w-fit text-2xl px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-notification-2-line"></i>
-              Notifications
+              <i class="ri-notification-2-line text-3xl"></i
+              ><span class="hidden md:block">Notifications</span>
             </li>
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center items-center text-2xl md:w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-shake-hands-line"></i>Grok
+              <i class="ri-shake-hands-line text-3xl"></i
+              ><span class="hidden md:block">Grok</span>
             </li>
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center text-2xl md:w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-file-list-line"></i>Lists
+              <i class="ri-file-list-line text-3xl"></i
+              ><span class="hidden md:block">Lists</span>
             </li>
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center text-2xl md:w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-bookmark-line"></i>Bookmarks
+              <i class="ri-bookmark-line text-3xl"></i
+              ><span class="hidden md:block">Bookmarks</span>
             </li>
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center text-2xl md:w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-community-line"></i>Communities
+              <i class="ri-community-line text-3xl"></i
+              ><span class="hidden md:block">Communities</span>
             </li>
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center text-2xl md:w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-lock-star-line"></i>Premium
+              <i class="ri-lock-star-line text-3xl"></i
+              ><span class="hidden md:block">Premium</span>
             </li>
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center text-2xl md:w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-user-3-line"></i>Profile
+              <i class="ri-user-3-line text-3xl"></i
+              ><span class="hidden md:block">Profile</span>
             </li>
             <li
-              class="flex justify-start items-center text-2xl w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start justify-center text-2xl md:w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
-              <i class="ri-more-2-line"></i>More
+              <i class="ri-more-2-line text-3xl"></i
+              ><span class="hidden md:block">More</span>
             </li>
-            <li>
+            <li
+              class="flex md:justify-start justify-center text-2xl md:w-fit px-2 py-3 space-y-3 gap-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+            >
               <div class="button text-center w-full">
-                <button class="bg-blue-600 text-white rounded-full px-20 py-2">
+                <button class="bg-blue-600 text-white rounded-full hidden md:block px-20 py-2">
                   Post
                 </button>
               </div>
@@ -98,7 +109,9 @@
         </div>
       </div>
 
-      <div class="second border-[0.5px] border-x-gray-700 border-y-black w-full">
+      <div
+        class="second border-[0.5px] border-x-gray-700 border-y-black w-full"
+      >
         <div class="top flex mt-4">
           <div class="left w-1/2 font-bold flex justify-center">
             <div class="w-fit">
@@ -116,7 +129,7 @@
 
         <hr class="w-full h-px m-0 bg-gray-200 border-0 dark:bg-gray-700" />
 
-        <div class="whashap flex gap-4">
+        <div class="whashap flex gap-4 md:flex">
           <div class="img m-4 w-20">
             <img
               src="assets/download (1).jpg"
@@ -219,7 +232,7 @@
         </div>
       </div>
 
-      <div class="third w-full">
+      <div class="third w-full hidden md:block">
         <div
           class="search w-1/2 rounded-full bg-gray-900 text-white flex items-center justify-start my-4 m-3"
         >
